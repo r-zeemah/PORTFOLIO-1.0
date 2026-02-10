@@ -69,7 +69,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
-    padding: 4px;
+    padding: 2px;
 }
 body{
     background-color: #20232a;
@@ -357,11 +357,18 @@ nav{
 .hero-2{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 25px;
 }
 .hero-2 article div{
   display: flex;
   flex-direction: row;
+}
+.hero-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-3 img{
   width: 280px;
